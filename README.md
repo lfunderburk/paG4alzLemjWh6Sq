@@ -35,16 +35,14 @@ Results
 
 The plots below give us a sense for the kinds of responses submitted to the survey, along with the customer satisfaction.
 
-The correlation matrix 
 
 ![](./reports/figures/distribution.png)
 
 ![](./reports/figures/satisfaction.png)
 
-![](./reports/figures/correlation.png)
+
 
 Feature engineering results
-
 
 ![](./reports/figures/feature_importance.png)
 
