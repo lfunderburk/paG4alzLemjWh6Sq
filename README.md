@@ -68,6 +68,10 @@ Accuracy:  0.7692307692307693
 weighted avg       0.77      0.77      0.77        26
 ```
 
+![](./reports/figures/confusion_matrixX1_X2_X5.png)
+
+![](./reports/figures/roc_curve_X1_X2_X5.png)
+
 Whereas if we pick X1, X2, X4, X5 we get
 
 ![](./reports/figures/feature_importance_x1_x2_x4_x5.png)
@@ -84,6 +88,9 @@ Accuracy:  0.7692307692307693
 weighted avg       0.78      0.77      0.77        26
 ```
 
+![](./reports/figures/confusion_matrixX1_X2_X4_X5.png)
+
+![](./reports/figures/roc_curve_X1_X2_X4_X5.png)
 
 Project template
 --------
