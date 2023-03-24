@@ -42,9 +42,47 @@ The plots below give us a sense for the kinds of responses submitted to the surv
 
 
 
-Feature engineering results
+#### Feature engineering results
 
-![](./reports/figures/feature_importance.png)
+Iterating through variables and through XGBoost, we obtained the following
+
+```
+Features: ('X1', 'X5'), Accuracy: 0.7307692307692307
+Features: ('X1', 'X2', 'X5'), Accuracy: 0.7692307692307693
+Features: ('X1', 'X2', 'X4', 'X5'), Accuracy: 0.7692307692307693
+```
+
+Picking X1, X2, X5 yields
+
+![](./reports/figures/feature_importance_x1_x2_x5.png)
+
+```
+Accuracy:  0.7692307692307693
+              precision    recall  f1-score   support
+
+           0       0.80      0.80      0.80        15
+           1       0.73      0.73      0.73        11
+
+    accuracy                           0.77        26
+   macro avg       0.76      0.76      0.76        26
+weighted avg       0.77      0.77      0.77        26
+```
+
+Whereas if we pick X1, X2, X4, X5 we get
+
+![](./reports/figures/feature_importance_x1_x2_x4_x5.png)
+
+```
+Accuracy:  0.7692307692307693
+              precision    recall  f1-score   support
+
+           0       0.85      0.73      0.79        15
+           1       0.69      0.82      0.75        11
+
+    accuracy                           0.77        26
+   macro avg       0.77      0.78      0.77        26
+weighted avg       0.78      0.77      0.77        26
+```
 
 
 Project template
