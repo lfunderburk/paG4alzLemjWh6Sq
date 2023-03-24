@@ -92,6 +92,23 @@ weighted avg       0.78      0.77      0.77        26
 
 ![](./reports/figures/roc_curve_X1_X2_X4_X5.png)
 
+#### Conclusion
+
+The following parameters seemed to have the most impact predicting customer satisfaction
+
+* X5 = I am satisfied with my courier
+* X2 = contents of my order was as I expected
+* X1 = my order was delivered on time
+
+Adding the following parameter has a slightly better performance (ROC curve)
+
+* X4 = I paid a good price for my order
+
+Adding the following parameters decreased performance
+
+* X3 = I ordered everything I wanted to order
+* X6 = the app makes ordering easy for me
+
 Project template
 --------
 
