@@ -18,6 +18,17 @@ Data Description:
 
 Attributes X1 to X6 indicate the responses for each question and have values from 1 to 5 where the smaller number indicates less and the higher number indicates more towards the answer.
 
+Goal(s):
+---------
+
+Predict if a customer is happy or not based on the answers they give to questions asked.
+
+Success Metrics:
+----------------
+
+Reach 73% accuracy score or above, or convince us why your solution is superior. We are definitely interested in every solution and insight you can provide us.
+
+
 
 Project Organization
 ------------
