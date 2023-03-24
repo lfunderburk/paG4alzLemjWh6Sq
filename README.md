@@ -28,6 +28,13 @@ Success Metrics:
 
 Reach 73% accuracy score or above, or convince us why your solution is superior. We are definitely interested in every solution and insight you can provide us.
 
+Results
+-------
+
+EDA
+
+![](./reports/figures/distribution.png)
+
 
 Project template
 --------
