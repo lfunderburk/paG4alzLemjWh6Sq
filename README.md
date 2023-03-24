@@ -31,9 +31,22 @@ Reach 73% accuracy score or above, or convince us why your solution is superior.
 Results
 -------
 
-EDA
+#### Exploratory data analysis
+
+The plots below give us a sense for the kinds of responses submitted to the survey, along with the customer satisfaction.
+
+The correlation matrix 
 
 ![](./reports/figures/distribution.png)
+
+![](./reports/figures/satisfaction.png)
+
+![](./reports/figures/correlation.png)
+
+Feature engineering results
+
+
+![](./reports/figures/feature_importance.png)
 
 
 Project template
